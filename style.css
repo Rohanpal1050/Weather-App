@@ -1,0 +1,40 @@
+/* You can add your custom styles here */
+
+/* Example styles for the navigation bar */
+body{
+  margin: 0;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: justify;
+    background-color: #fff;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+.navbar {
+  padding: 16px;
+}
+.bg-body-tertiary{
+  opacity: 1;
+  background-color: rgba(var(248,249,250),var(opacity));
+
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-nav .nav-link {
+  padding: 0.5rem 1rem;
+}
+
+.form-control {
+  width: 200px;
+}
